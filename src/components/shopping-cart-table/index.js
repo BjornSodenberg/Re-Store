@@ -7,13 +7,16 @@ const ShoppingCartTable = () => {
             <h2>Your Orders</h2>
             <table className="table">
                 <thead>
+                    <tr>
                     <th>#</th>
                     <th>Item</th>
                     <th>Count</th>
                     <th>Price</th>
                     <th>Action</th>
+                    </tr>
                 </thead>
                 <tbody>
+                    <tr>
                     <td>1</td>
                     <td>Site Reliability Engineering</td>
                     <td>2</td>
@@ -29,6 +32,7 @@ const ShoppingCartTable = () => {
                             <i className="fa fa-minus-circle" />
                         </button>
                     </td>
+                    </tr>
                 </tbody>
             </table>
 
