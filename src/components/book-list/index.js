@@ -43,7 +43,11 @@ class BookListCotainer extends Component {
   }
 }
 
+<<<<<<< HEAD
 const mapStateToProps = ({ books, loading, error }) => {
+=======
+const mapStateToProps = ({ bookList: { books, loading, error } }) => {
+>>>>>>> order-list
   return { books, loading, error };
 };
 
